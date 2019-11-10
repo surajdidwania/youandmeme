@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>You&MeMe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="whitepanda.css">
+</head>
+<body>
+  <script>
+
+  src="node_modules/ng";
+
+ var arr = ["m75djlkeyo021.jpg","t292qbaa9l021.jpg","zo8soegv5d021.jpg"]
+
+    function like(){
+      var number = Math.random() * arr.length;
+      number = parseInt(number);
+      document.getElementById("meme").src = arr[number];
+    }
+    function dislike(){
+      var number = Math.random() * arr.length;
+      number = parseInt(number);
+      document.getElementById("meme").src = arr[number];
+    }
+  </script>
+  <div class="root">
+    <div class="main_content">
+      <h5 class="Upcoming Hackathon"></h5>
+
+      <div class="image-div">
+        <img src="il4nk6v7qo021.jpg" id = "meme" width="600" height="600" style="margin-left: 25rem;" />
+      </div>
+    </div>
+
+
+
+  <button type="button" class="btn btn-outline-primary custom-button" onclick="like()" style="margin-left: 48.5rem;">like</button>
+  <button type="button" class="btn btn-outline-primary custom-button" onclick="dislike()">dislike</button>
+
+  <div class="footer-full">
+    <div class="footer>
+      <a href="#"><i class="fa social fa-instagram" aria-hidden="true" style="margin-left: 48.5rem;" style="margin-bottom: 15rem"></i></a>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-share-button"
+         data-href="https://www.facebook.com"
+         data-layout="button_count"
+         aria-hidden="true" style="margin-left: 48.5rem;" style="margin-bottom: 15rem">
+    </div>
+      <a href="#"><i class="fa social fa-facebook" aria-hidden="true"></i></a>
+
+    <div class="footer-links" style="margin-bottom: 15px">
+      <p class="links copyright">Privacy Policy</p>
+      <p class="links copyright">|</p>
+      <p class="links copyright">Terms of Service</p>
+      <p class="links copyright">|</p>
+      <p class="links copyright">Service Agreement</p>
+      <p class="links copyright">|</p>
+      <p class="links copyright">Contact Us</p>
+    </div>
+  </div>
+  <nav class="navbar elevation navbar-expand-sm fixed-top">
+    <a class="navbar-brand" href="#"><img src="images.jpg" height="50px" style="margin-left: 3.5rem;"></a>
+    <p style="color:Black" class="excerpt">You&MeMe</a>
+    <ul class="navbar-nav">
+      <li class="nav-item notification">
+        <a class="nav-link" href="#">
+          <i class="fa black fa-bell-o"></i>
+          <span class="badge">12</span>
+        </a>
+      </li>
+      <li class="nav-item name">
+        <p style="color:white">SD</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="nav flex-column elevation nav-pills" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="squares.jpeg" class="fas"/></a>
+    <a class="nav-link" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="search.jpeg" class="fas"/></a>
+  </div>
+  </div>
+</body>
+</html>

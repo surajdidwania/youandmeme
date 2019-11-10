@@ -1,0 +1,231 @@
+.root {
+    margin-bottom: 4rem;
+}
+
+.flex-column {
+    height: 110vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    padding-top: 5.5rem;
+    z-index: 10;
+}
+p.excerpt{
+    border: 2px solid #0066FF;
+    background-color:#FFCC33;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:0px;
+    margin-right:20px;
+}
+
+.elevation {
+    -webkit-box-shadow: 0px 5px 11px -1px rgba(0,3,0,0.1);
+    -moz-box-shadow: 0px 5px 11px -1px rgba(0,3,0,0.1);
+    box-shadow: 0px 5px 11px -1px rgba(0,3,0,0.1);}
+
+.nav-link {
+    margin: 0.8rem 0 0.2rem 0.5rem;
+    padding: 0;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white;
+    border-right: 3px solid #41BFB3;
+    border-radius: 0;
+}
+
+.fas{
+    width: 50px;
+   color: #41BFB3;
+   margin-right: 4px;
+}
+
+.fa {
+    font-size: 1.5rem;
+    color: #999998;
+    margin-right: 5px;
+    margin-top: 11px;
+}
+
+.black {
+    color: black;
+}
+
+.navbar {
+    height: 4rem;
+    margin-left: 65px;
+    background: white;
+}
+
+.badge {
+    position: absolute;
+    top: 18px;
+    right: -5px;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background: #F25C69;
+    color: white;
+}
+
+.notification {
+    position: absolute;
+    right: 8rem;
+    top: 0;
+}
+
+.name {
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+    background: #C8F288;
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.main_content {
+    padding-left: 10rem;
+    padding-top: 8rem;
+    font-style: normal;
+}
+
+.heading {
+    font-size: 2.3rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    background: #F9FBFB;
+}
+
+.display {
+    font-size: 1.1rem;
+    font-style: 'Roboto';
+    color: #41BFB3;
+}
+
+.lead {
+    width: 70%;
+    font-size: 0.85rem;
+    font-family: 'Roboto', sans-serif;
+    color: #B9B3BA;
+}
+
+.custom-button {
+    color:#41BFB3;
+    border: 1px solid #41BFB3;
+    margin-top: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.row {
+    margin-left: 9rem;
+    margin-bottom: 6rem;
+}
+.card {
+    border: transparent 0px;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(10,10,10,.1); 
+}
+
+.card:hover .card-heading {
+    color: #41BFB3;
+}
+
+.card:hover .image-div {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 1rem;
+    display: block;
+    background: #41BFB3;
+    background-color: #41BFB3;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+
+.card:hover img {
+    display: none;
+}
+.first-section {
+    display: inline-flex;
+    padding: 1rem;
+}
+
+.heading-price {
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.card-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 750;
+    font-size: 1.1rem;
+    color: black;
+    font-style: bold;
+    margin-bottom: 0;
+}
+
+.card-price {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #B9B3BA;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.card-button {
+    margin-left: 1rem;
+    width: 40%;
+    border-radius: 1px;
+}
+
+.card-button:hover, .custom-button:hover{
+    background: #41BFB3;
+    border: 1px solid #41BFB3;
+}
+
+.footer {
+    text-align: center;
+}
+
+.social {
+    font-size: 2.2rem;
+    color: #999998;
+    padding: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #999998;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.links {
+    text-decoration: underline;
+    margin: 0 0.35rem 0 0.35rem;
+}
